@@ -1,0 +1,82 @@
+body{
+    background-color: #dddddd;
+    background-image: url("UI_1.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    color:green;
+    margin-right: 400px;
+    text-align: justify;
+}
+
+img {
+    margin-left: 250px;
+    height: auto;
+    
+}
+header{
+    background-color:#222222;
+    color: #dddddd;
+    text-align: center;
+    color:red;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222222;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #444;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+footer{
+    background-color:#222222;
+    color: #dddddd;
+}
+
+
+input[type=text],input[type=password], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    background-color:#4CAF50;
+    width:50%;
+    padding:12px 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 4px;
+    margin:8px 0;
+}
+section{
+    padding:20px;
+}
+
+footer{
+    text-shadow: 2px 2px red;
+}
